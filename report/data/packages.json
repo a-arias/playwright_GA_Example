@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "example.spec.js",
+    "children" : [ {
+      "name" : "Prueba login stage",
+      "uid" : "1f18a07d5255f6dd",
+      "parentUid" : "c652971309260ae06f0936e0826fba6d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1729225527067,
+        "stop" : 1729225527069,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "entra age",
+      "uid" : "8c4376788db6bc42",
+      "parentUid" : "c652971309260ae06f0936e0826fba6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1729225527493,
+        "stop" : 1729225535850,
+        "duration" : 8357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "pruebagoogle",
+      "uid" : "21a655d284b68e07",
+      "parentUid" : "c652971309260ae06f0936e0826fba6d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1729225536262,
+        "stop" : 1729225536262,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Busca producto y da clic",
+      "uid" : "6651eb2b06cd34d3",
+      "parentUid" : "c652971309260ae06f0936e0826fba6d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1729225536263,
+        "stop" : 1729225536263,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox" ]
+    } ],
+    "uid" : "example.spec.js"
+  } ],
+  "name" : "packages"
+}

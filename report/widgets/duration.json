@@ -1,0 +1,41 @@
+[ {
+  "uid" : "1f18a07d5255f6dd",
+  "name" : "Prueba login stage",
+  "time" : {
+    "start" : 1729225527067,
+    "stop" : 1729225527069,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8c4376788db6bc42",
+  "name" : "entra age",
+  "time" : {
+    "start" : 1729225527493,
+    "stop" : 1729225535850,
+    "duration" : 8357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21a655d284b68e07",
+  "name" : "pruebagoogle",
+  "time" : {
+    "start" : 1729225536262,
+    "stop" : 1729225536262,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6651eb2b06cd34d3",
+  "name" : "Busca producto y da clic",
+  "time" : {
+    "start" : 1729225536263,
+    "stop" : 1729225536263,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

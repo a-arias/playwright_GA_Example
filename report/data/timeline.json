@@ -1,0 +1,69 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az1242-285",
+    "children" : [ {
+      "name" : "pid-5411-worker--1",
+      "children" : [ {
+        "name" : "Prueba login stage",
+        "uid" : "1f18a07d5255f6dd",
+        "parentUid" : "1f266b168fbc729933ea4c98e1361c4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1729225527067,
+          "stop" : 1729225527069,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "Busca producto y da clic",
+        "uid" : "6651eb2b06cd34d3",
+        "parentUid" : "1f266b168fbc729933ea4c98e1361c4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1729225536263,
+          "stop" : 1729225536263,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "pruebagoogle",
+        "uid" : "21a655d284b68e07",
+        "parentUid" : "1f266b168fbc729933ea4c98e1361c4c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1729225536262,
+          "stop" : 1729225536262,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "1f266b168fbc729933ea4c98e1361c4c"
+    }, {
+      "name" : "pid-5411-worker-0",
+      "children" : [ {
+        "name" : "entra age",
+        "uid" : "8c4376788db6bc42",
+        "parentUid" : "f2ef5f985b4825a12bd30da2012c3790",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729225527493,
+          "stop" : 1729225535850,
+          "duration" : 8357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "f2ef5f985b4825a12bd30da2012c3790"
+    } ],
+    "uid" : "c718e6aebf586d2ea6ec6b6ce97ea154"
+  } ],
+  "name" : "timeline"
+}

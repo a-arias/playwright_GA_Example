@@ -1,0 +1,56 @@
+{
+  "uid" : "6651eb2b06cd34d3",
+  "name" : "Busca producto y da clic",
+  "fullName" : "example.spec.js:40:6",
+  "historyId" : "efa101d716c452eb43455c9b1a0fbc79:b444eb0fbe6390c71e68b51dd25701fc",
+  "time" : {
+    "start" : 1729225536263,
+    "stop" : 1729225536263,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "playwright"
+  }, {
+    "name" : "package",
+    "value" : "example.spec.js"
+  }, {
+    "name" : "titlePath",
+    "value" : " > firefox > example.spec.js"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1242-285"
+  }, {
+    "name" : "thread",
+    "value" : "pid-5411-worker--1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "firefox"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6651eb2b06cd34d3.json",
+  "parameterValues" : [ "firefox" ]
+}
