@@ -1,7 +1,9 @@
 name: Playwright Tests
 on:
  schedule:
-    - cron: '51 2 * * 1-5' # Corre de lunes a viernes a las 2:49 UTC
+    - cron: '55 2 * * 1-5' # Corre de lunes a viernes a las 2:49 UTC
+ push:
+    branches: [main, master]
 jobs:
   test:
     timeout-minutes: 60
