@@ -2,7 +2,6 @@
 const { test, expect } = require('@playwright/test');
 
 
-
 test.skip('Prueba login stage' ,async ({ page })=>{
 
 
