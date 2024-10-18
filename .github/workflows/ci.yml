@@ -60,3 +60,4 @@ jobs:
             publish_dir: allure/report
             publish_branch: allure_report
             keep_files: true
+            source_dir: allure/result
