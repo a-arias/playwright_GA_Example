@@ -1,17 +1,17 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1242-285",
+    "name" : "fv-az2031-663",
     "children" : [ {
-      "name" : "pid-5411-worker--1",
+      "name" : "pid-5296-worker--1",
       "children" : [ {
         "name" : "Prueba login stage",
-        "uid" : "1f18a07d5255f6dd",
-        "parentUid" : "1f266b168fbc729933ea4c98e1361c4c",
+        "uid" : "fe2bdd65ef970fb3",
+        "parentUid" : "f84c8a372fbddfd46602866efe271c2e",
         "status" : "skipped",
         "time" : {
-          "start" : 1729225527067,
-          "stop" : 1729225527069,
+          "start" : 1729225642369,
+          "stop" : 1729225642371,
           "duration" : 2
         },
         "flaky" : false,
@@ -19,12 +19,12 @@
         "parameters" : [ "firefox" ]
       }, {
         "name" : "Busca producto y da clic",
-        "uid" : "6651eb2b06cd34d3",
-        "parentUid" : "1f266b168fbc729933ea4c98e1361c4c",
+        "uid" : "199085a256ccaa9f",
+        "parentUid" : "f84c8a372fbddfd46602866efe271c2e",
         "status" : "skipped",
         "time" : {
-          "start" : 1729225536263,
-          "stop" : 1729225536263,
+          "start" : 1729225650601,
+          "stop" : 1729225650601,
           "duration" : 0
         },
         "flaky" : false,
@@ -32,38 +32,38 @@
         "parameters" : [ "firefox" ]
       }, {
         "name" : "pruebagoogle",
-        "uid" : "21a655d284b68e07",
-        "parentUid" : "1f266b168fbc729933ea4c98e1361c4c",
+        "uid" : "5366111bc4ce8963",
+        "parentUid" : "f84c8a372fbddfd46602866efe271c2e",
         "status" : "skipped",
         "time" : {
-          "start" : 1729225536262,
-          "stop" : 1729225536262,
-          "duration" : 0
+          "start" : 1729225650600,
+          "stop" : 1729225650601,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
       } ],
-      "uid" : "1f266b168fbc729933ea4c98e1361c4c"
+      "uid" : "f84c8a372fbddfd46602866efe271c2e"
     }, {
-      "name" : "pid-5411-worker-0",
+      "name" : "pid-5296-worker-0",
       "children" : [ {
         "name" : "entra age",
-        "uid" : "8c4376788db6bc42",
-        "parentUid" : "f2ef5f985b4825a12bd30da2012c3790",
+        "uid" : "ee9c8b3fb814d65f",
+        "parentUid" : "3c849981d01b0aa7620416e2ac2d2ccc",
         "status" : "passed",
         "time" : {
-          "start" : 1729225527493,
-          "stop" : 1729225535850,
-          "duration" : 8357
+          "start" : 1729225642775,
+          "stop" : 1729225650189,
+          "duration" : 7414
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
       } ],
-      "uid" : "f2ef5f985b4825a12bd30da2012c3790"
+      "uid" : "3c849981d01b0aa7620416e2ac2d2ccc"
     } ],
-    "uid" : "c718e6aebf586d2ea6ec6b6ce97ea154"
+    "uid" : "c2e482941527c3db079a9ef748af0943"
   } ],
   "name" : "timeline"
 }
