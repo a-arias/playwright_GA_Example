@@ -52,10 +52,18 @@ jobs:
           path: allure/report
           retention-days: 5
 
-      - name: Deploy report to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+      - name: Deploy to GitHub Pages
+        uses: github-pages/deploy@v1
         with:
-          publish_dir: allure-report
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: allure-report
+
+      - name: Configure GitHub Pages
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git checkout --orphan gh-pages
+          git add .
+          git commit -m "Deploy Allure report"
+          git push -u origin gh-pages
