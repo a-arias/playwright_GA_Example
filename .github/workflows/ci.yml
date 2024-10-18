@@ -45,9 +45,6 @@ jobs:
       - name: Generate Allure report
         run: allure generate allure/result -o allure/report --clean
 
-      - name: Check Allure Results
-        run: ls -la allure/result
-
       # - name: Upload Allure Report
       #   uses: actions/upload-artifact@v3
       #   with:
@@ -59,7 +56,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: allure-results
-          path: allure/result
+          path: allure
 
       ## Deploy allure report      
       ##- name: Deploy Allure Report to GitHub Pages
@@ -75,7 +72,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }} 
-            publish_dir: allure/result
+            publish_dir: allure
             publish_branch: allure_report
             keep_files: true
            
