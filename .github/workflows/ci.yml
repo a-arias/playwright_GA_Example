@@ -43,7 +43,7 @@ jobs:
         run: npm run test
 
       - name: Generate Allure report
-        run: allure generate allure/results -o allure/report --clean
+        run: allure generate allure/results -o allure/report --clean --include-results
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v3
@@ -60,4 +60,4 @@ jobs:
             publish_dir: allure/report
             publish_branch: allure_report
             keep_files: true
-            source_dir: allure/result
+           
