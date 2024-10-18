@@ -48,12 +48,12 @@ jobs:
       - name: Check Allure Results
         run: ls -la allure/result
 
-      - name: Upload Allure Report
-        uses: actions/upload-artifact@v3
-        with:
-          name: allure-report
-          path: allure/report
-          retention-days: 5
+      # - name: Upload Allure Report
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: allure-report
+      #     path: allure/report
+      #     retention-days: 5
 
       - name: Upload Allure Results
         uses: actions/upload-artifact@v3
