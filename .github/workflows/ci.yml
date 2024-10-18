@@ -45,12 +45,12 @@ jobs:
       - name: Generate Allure report
         run: allure generate allure/result -o allure/report --clean
 
-      # - name: Upload Allure Report
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: allure-report
-      #     path: allure/report
-      #     retention-days: 5
+      - name: Upload Allure Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure/report
+          retention-days: 5
 
       - name: Upload Allure Results
         uses: actions/upload-artifact@v3
@@ -58,21 +58,19 @@ jobs:
           name: allure-results
           path: allure/result
 
-      ## Deploy allure report      
-      ##- name: Deploy Allure Report to GitHub Pages
-        ##uses: peaceiris/actions-gh-pages@v3
-       ## with:
-            ##github_token: ${{ secrets.GITHUB_TOKEN }} 
-            ##publish_dir: allure/report
-            ##publish_branch: allure_report
-            ##keep_files: true
+      - name: Deploy Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }} 
+            publish_dir: allure/report
+            publish_branch: allure_report
+            keep_files: true
 
-      ## Deploy allure results      
       - name: Deploy Allure Results to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }} 
-            publish_dir: allure
+            publish_dir: allure/result
             publish_branch: allure_report
             keep_files: true
            
