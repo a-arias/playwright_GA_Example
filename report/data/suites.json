@@ -4,12 +4,12 @@
     "name" : "firefox",
     "children" : [ {
       "name" : "Prueba login stage",
-      "uid" : "fe2bdd65ef970fb3",
+      "uid" : "28c0655d289050f5",
       "parentUid" : "ed39c131db56604842b18253a0c76267",
       "status" : "skipped",
       "time" : {
-        "start" : 1729225642369,
-        "stop" : 1729225642371,
+        "start" : 1729225846891,
+        "stop" : 1729225846893,
         "duration" : 2
       },
       "flaky" : false,
@@ -17,25 +17,25 @@
       "parameters" : [ "firefox" ]
     }, {
       "name" : "entra age",
-      "uid" : "ee9c8b3fb814d65f",
+      "uid" : "b5f7388d15751436",
       "parentUid" : "ed39c131db56604842b18253a0c76267",
       "status" : "passed",
       "time" : {
-        "start" : 1729225642775,
-        "stop" : 1729225650189,
-        "duration" : 7414
+        "start" : 1729225847297,
+        "stop" : 1729225856443,
+        "duration" : 9146
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "firefox" ]
     }, {
       "name" : "pruebagoogle",
-      "uid" : "5366111bc4ce8963",
+      "uid" : "8f54b019e63b7b7b",
       "parentUid" : "ed39c131db56604842b18253a0c76267",
       "status" : "skipped",
       "time" : {
-        "start" : 1729225650600,
-        "stop" : 1729225650601,
+        "start" : 1729225856819,
+        "stop" : 1729225856820,
         "duration" : 1
       },
       "flaky" : false,
@@ -43,13 +43,13 @@
       "parameters" : [ "firefox" ]
     }, {
       "name" : "Busca producto y da clic",
-      "uid" : "199085a256ccaa9f",
+      "uid" : "3bd983486dfc49fe",
       "parentUid" : "ed39c131db56604842b18253a0c76267",
       "status" : "skipped",
       "time" : {
-        "start" : 1729225650601,
-        "stop" : 1729225650601,
-        "duration" : 0
+        "start" : 1729225856820,
+        "stop" : 1729225856821,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
