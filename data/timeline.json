@@ -1,30 +1,34 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az564-797",
+    "name" : "fv-az2031-287",
     "children" : [ {
-      "name" : "pid-5296-worker--1",
+      "name" : "pid-5293-worker-0",
       "children" : [ {
-        "name" : "Busca producto y da clic",
-        "uid" : "b8d6178dd2c3dd75",
-        "parentUid" : "4049888d3f7c2c326cae6735e06cbfdd",
-        "status" : "skipped",
+        "name" : "entra age",
+        "uid" : "495f7f1c05266af1",
+        "parentUid" : "1beee4b7c9e345002964acc580e2fedc",
+        "status" : "passed",
         "time" : {
-          "start" : 1729646613124,
-          "stop" : 1729646613124,
-          "duration" : 0
+          "start" : 1729646714497,
+          "stop" : 1729646722494,
+          "duration" : 7997
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
-      }, {
+      } ],
+      "uid" : "1beee4b7c9e345002964acc580e2fedc"
+    }, {
+      "name" : "pid-5293-worker--1",
+      "children" : [ {
         "name" : "pruebagoogle",
-        "uid" : "b5fe8e6ff356d01f",
-        "parentUid" : "4049888d3f7c2c326cae6735e06cbfdd",
+        "uid" : "8cf8750057a252d5",
+        "parentUid" : "51349a0cbe8ecd3a5b0799fb0f9bc267",
         "status" : "skipped",
         "time" : {
-          "start" : 1729646613123,
-          "stop" : 1729646613123,
+          "start" : 1729646722870,
+          "stop" : 1729646722870,
           "duration" : 0
         },
         "flaky" : false,
@@ -32,38 +36,34 @@
         "parameters" : [ "firefox" ]
       }, {
         "name" : "Prueba login stage",
-        "uid" : "c605e19344cf1e31",
-        "parentUid" : "4049888d3f7c2c326cae6735e06cbfdd",
+        "uid" : "76c8bcb6048b1ef1",
+        "parentUid" : "51349a0cbe8ecd3a5b0799fb0f9bc267",
         "status" : "skipped",
         "time" : {
-          "start" : 1729646602164,
-          "stop" : 1729646602165,
+          "start" : 1729646714090,
+          "stop" : 1729646714091,
           "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
-      } ],
-      "uid" : "4049888d3f7c2c326cae6735e06cbfdd"
-    }, {
-      "name" : "pid-5296-worker-0",
-      "children" : [ {
-        "name" : "entra age",
-        "uid" : "b1ff26fa6ecc59e5",
-        "parentUid" : "36b0f3666c4c0aba85158a407b2716d6",
-        "status" : "passed",
+      }, {
+        "name" : "Busca producto y da clic",
+        "uid" : "cf5e5624282258d3",
+        "parentUid" : "51349a0cbe8ecd3a5b0799fb0f9bc267",
+        "status" : "skipped",
         "time" : {
-          "start" : 1729646602565,
-          "stop" : 1729646612405,
-          "duration" : 9840
+          "start" : 1729646722871,
+          "stop" : 1729646722871,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
       } ],
-      "uid" : "36b0f3666c4c0aba85158a407b2716d6"
+      "uid" : "51349a0cbe8ecd3a5b0799fb0f9bc267"
     } ],
-    "uid" : "8a31cf49f51240edfcdf8ec87119a80e"
+    "uid" : "c7660a620ba5bab79c6a96dfdc9be7de"
   } ],
   "name" : "timeline"
 }
