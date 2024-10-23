@@ -4,12 +4,12 @@
     "name" : "example.spec.js",
     "children" : [ {
       "name" : "Prueba login stage",
-      "uid" : "edf5f205fcab66c0",
+      "uid" : "c605e19344cf1e31",
       "parentUid" : "c652971309260ae06f0936e0826fba6d",
       "status" : "skipped",
       "time" : {
-        "start" : 1729644957389,
-        "stop" : 1729644957390,
+        "start" : 1729646602164,
+        "stop" : 1729646602165,
         "duration" : 1
       },
       "flaky" : false,
@@ -17,38 +17,38 @@
       "parameters" : [ "firefox" ]
     }, {
       "name" : "entra age",
-      "uid" : "d0ffbd41ee50d63d",
+      "uid" : "b1ff26fa6ecc59e5",
       "parentUid" : "c652971309260ae06f0936e0826fba6d",
       "status" : "passed",
       "time" : {
-        "start" : 1729644957793,
-        "stop" : 1729644961178,
-        "duration" : 3385
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "firefox" ]
-    }, {
-      "name" : "Busca producto y da clic",
-      "uid" : "5009e54917dd3b7d",
-      "parentUid" : "c652971309260ae06f0936e0826fba6d",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1729644961788,
-        "stop" : 1729644961789,
-        "duration" : 1
+        "start" : 1729646602565,
+        "stop" : 1729646612405,
+        "duration" : 9840
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "firefox" ]
     }, {
       "name" : "pruebagoogle",
-      "uid" : "e68f5c8decbb1959",
+      "uid" : "b5fe8e6ff356d01f",
       "parentUid" : "c652971309260ae06f0936e0826fba6d",
       "status" : "skipped",
       "time" : {
-        "start" : 1729644961788,
-        "stop" : 1729644961788,
+        "start" : 1729646613123,
+        "stop" : 1729646613123,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox" ]
+    }, {
+      "name" : "Busca producto y da clic",
+      "uid" : "b8d6178dd2c3dd75",
+      "parentUid" : "c652971309260ae06f0936e0826fba6d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1729646613124,
+        "stop" : 1729646613124,
         "duration" : 0
       },
       "flaky" : false,

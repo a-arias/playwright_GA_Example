@@ -1,41 +1,41 @@
 [ {
-  "uid" : "edf5f205fcab66c0",
-  "name" : "Prueba login stage",
-  "time" : {
-    "start" : 1729644957389,
-    "stop" : 1729644957390,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "5009e54917dd3b7d",
+  "uid" : "b8d6178dd2c3dd75",
   "name" : "Busca producto y da clic",
   "time" : {
-    "start" : 1729644961788,
-    "stop" : 1729644961789,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e68f5c8decbb1959",
-  "name" : "pruebagoogle",
-  "time" : {
-    "start" : 1729644961788,
-    "stop" : 1729644961788,
+    "start" : 1729646613124,
+    "stop" : 1729646613124,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "d0ffbd41ee50d63d",
+  "uid" : "b1ff26fa6ecc59e5",
   "name" : "entra age",
   "time" : {
-    "start" : 1729644957793,
-    "stop" : 1729644961178,
-    "duration" : 3385
+    "start" : 1729646602565,
+    "stop" : 1729646612405,
+    "duration" : 9840
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5fe8e6ff356d01f",
+  "name" : "pruebagoogle",
+  "time" : {
+    "start" : 1729646613123,
+    "stop" : 1729646613123,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c605e19344cf1e31",
+  "name" : "Prueba login stage",
+  "time" : {
+    "start" : 1729646602164,
+    "stop" : 1729646602165,
+    "duration" : 1
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

@@ -1,69 +1,69 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az1240-583",
+    "name" : "fv-az564-797",
     "children" : [ {
-      "name" : "pid-5334-worker--1",
+      "name" : "pid-5296-worker--1",
       "children" : [ {
-        "name" : "Prueba login stage",
-        "uid" : "edf5f205fcab66c0",
-        "parentUid" : "c0af55406af91a66c82beb6615d075c9",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1729644957389,
-          "stop" : 1729644957390,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "firefox" ]
-      }, {
         "name" : "Busca producto y da clic",
-        "uid" : "5009e54917dd3b7d",
-        "parentUid" : "c0af55406af91a66c82beb6615d075c9",
+        "uid" : "b8d6178dd2c3dd75",
+        "parentUid" : "4049888d3f7c2c326cae6735e06cbfdd",
         "status" : "skipped",
         "time" : {
-          "start" : 1729644961788,
-          "stop" : 1729644961789,
-          "duration" : 1
+          "start" : 1729646613124,
+          "stop" : 1729646613124,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
       }, {
         "name" : "pruebagoogle",
-        "uid" : "e68f5c8decbb1959",
-        "parentUid" : "c0af55406af91a66c82beb6615d075c9",
+        "uid" : "b5fe8e6ff356d01f",
+        "parentUid" : "4049888d3f7c2c326cae6735e06cbfdd",
         "status" : "skipped",
         "time" : {
-          "start" : 1729644961788,
-          "stop" : 1729644961788,
+          "start" : 1729646613123,
+          "stop" : 1729646613123,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
-      } ],
-      "uid" : "c0af55406af91a66c82beb6615d075c9"
-    }, {
-      "name" : "pid-5334-worker-0",
-      "children" : [ {
-        "name" : "entra age",
-        "uid" : "d0ffbd41ee50d63d",
-        "parentUid" : "f180b564e2546480e8cf2a067d8c014a",
-        "status" : "passed",
+      }, {
+        "name" : "Prueba login stage",
+        "uid" : "c605e19344cf1e31",
+        "parentUid" : "4049888d3f7c2c326cae6735e06cbfdd",
+        "status" : "skipped",
         "time" : {
-          "start" : 1729644957793,
-          "stop" : 1729644961178,
-          "duration" : 3385
+          "start" : 1729646602164,
+          "stop" : 1729646602165,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "firefox" ]
       } ],
-      "uid" : "f180b564e2546480e8cf2a067d8c014a"
+      "uid" : "4049888d3f7c2c326cae6735e06cbfdd"
+    }, {
+      "name" : "pid-5296-worker-0",
+      "children" : [ {
+        "name" : "entra age",
+        "uid" : "b1ff26fa6ecc59e5",
+        "parentUid" : "36b0f3666c4c0aba85158a407b2716d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729646602565,
+          "stop" : 1729646612405,
+          "duration" : 9840
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      } ],
+      "uid" : "36b0f3666c4c0aba85158a407b2716d6"
     } ],
-    "uid" : "cbba534f15bdea302f4f699b25443ce3"
+    "uid" : "8a31cf49f51240edfcdf8ec87119a80e"
   } ],
   "name" : "timeline"
 }
