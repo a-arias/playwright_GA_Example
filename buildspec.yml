@@ -1,0 +1,35 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18.x
+    commands:
+      - echo "Cloning repository"
+      - git clone https://github.com/a-arias/playwright_GA_Example /app
+      - cd /app
+      - echo "Installing dependencies"
+      - npm install
+      - npm install -g playwright
+      - npx playwright install --with-deps
+      - apt-get update && apt-get install -y openjdk-8-jdk
+      - wget https://github.com/allure-framework/allure2/releases/download/2.13.8/allure-2.13.8.tgz
+      - tar -zxvf allure-2.13.8.tgz
+      - sudo mv allure-2.13.8 /opt/allure
+      - sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+      - allure --version
+  build:
+    commands:
+      - echo "Running Playwright tests"
+      - npx playwright test
+  post_build:
+    commands:
+      - echo "Generating Allure report"
+      - allure generate allure-results -o allure-report --clean
+      - echo "Uploading Allure report to S3"
+      - aws s3 cp --recursive allure-report s3://your-s3-bucket-name/allure-report/
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: yes
