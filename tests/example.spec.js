@@ -17,7 +17,7 @@ test('entra age' ,async ({ page })=>{
 
 
   await page.goto('https://www.cedhsonora.org.mx/Pagina/public/home');
-  await page.locator('//a[contains(text(),"Recomendaciones")]').click();
+  await page.locator('//a[contains(text(),"Recomendacioes")]').click();
 
   await expect(page.url()).toEqual('https://www.cedhsonora.org.mx/Pagina/public/Recomendaciones');  
 });
