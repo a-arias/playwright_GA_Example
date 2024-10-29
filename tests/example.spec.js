@@ -13,10 +13,10 @@ test.skip('Prueba login stage' ,async ({ page })=>{
 });
 
 
-test('entra age' ,async ({ page })=>{
+test('entra oruebnafdfsdfsdfsdf' ,async ({ page })=>{
 
 
-  await page.goto('https://www.cedhsonora.org.mx/Pagina/public/home');
+  await page.goto('https://www.cedhsonora.org.mx/Pagina/sd/home');
   await page.locator('//a[contains(text(),"Recomendacioes")]').click();
 
   await expect(page.url()).toEqual('https://www.cedhsonora.org.mx/Pagina/public/Recomendaciones');  
